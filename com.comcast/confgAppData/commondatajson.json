@@ -1,0 +1,11 @@
+{
+  "browser": "edge",
+
+   "url":  " http://localhost:8888/index.php?action=Login&module=Users",
+    
+    "email":"admin",
+   
+    "password": "admin",
+ 
+    "timeout":10 
+}
