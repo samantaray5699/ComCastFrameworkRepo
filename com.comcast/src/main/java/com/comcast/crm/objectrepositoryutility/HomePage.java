@@ -61,7 +61,15 @@ public class HomePage {
 		return signoutbtn;
 	}
 	
+	@FindBy(linkText = "Products")
+	private WebElement productlnk;
 	
+	
+	public WebElement getProductlnk() {
+		return productlnk;
+	}
+
+
 	//bussiness lib.
 	public void signout()
 	{
